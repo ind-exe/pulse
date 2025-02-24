@@ -3,7 +3,8 @@ package handlers
 import (
 	"log"
 	"net/http"
-	"oob-server/models"
+
+	"github.com/ind-exe/pulse/models"
 )
 
 func FileServeHandler(w http.ResponseWriter, r *http.Request, fileModel models.ServeFileModel) {

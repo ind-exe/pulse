@@ -1,6 +1,6 @@
 package notification
 
-import "oob-server/models"
+import "github.com/ind-exe/pulse/models"
 
 
 

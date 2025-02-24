@@ -1,11 +1,12 @@
 package main
 
 import (
-	dataconfig "oob-server/dataConfig"
-	envvar "oob-server/envVar"
-	dnsserver "oob-server/oob-server/dns/servers"
-	httpserver "oob-server/oob-server/http/servers"
 	"sync"
+
+	dataconfig "github.com/ind-exe/pulse/dataConfig"
+	envvar "github.com/ind-exe/pulse/envVar"
+	dnsserver "github.com/ind-exe/pulse/oob-server/dns/servers"
+	httpserver "github.com/ind-exe/pulse/oob-server/http/servers"
 )
 
 func main() {

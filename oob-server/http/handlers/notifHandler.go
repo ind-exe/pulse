@@ -4,10 +4,11 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"oob-server/data"
-	"oob-server/models"
 	"sync"
 	"time"
+
+	"github.com/ind-exe/pulse/data"
+	"github.com/ind-exe/pulse/models"
 )
 
 func NotifHandler(checkUrl string, r *http.Request, wg *sync.WaitGroup) {

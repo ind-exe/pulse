@@ -3,7 +3,8 @@ package certhandle
 import (
 	"log"
 	"net/url"
-	"oob-server/data"
+
+	"github.com/ind-exe/pulse/data"
 )
 
 func domainUniqueListCreator(domainList *[]string, domain string, seen map[string]bool) {

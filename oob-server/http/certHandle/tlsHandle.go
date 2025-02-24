@@ -3,8 +3,9 @@ package certhandle
 import (
 	"crypto/tls"
 	"log"
-	"oob-server/data"
 	"time"
+
+	"github.com/ind-exe/pulse/data"
 
 	"github.com/caddyserver/certmagic"
 )

@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"net/http"
-	"oob-server/data"
 	"sync"
+
+	"github.com/ind-exe/pulse/data"
 )
 
 func Decider(w http.ResponseWriter, r *http.Request) {

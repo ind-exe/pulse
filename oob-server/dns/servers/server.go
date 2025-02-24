@@ -2,7 +2,8 @@ package servers
 
 import (
 	"log"
-	"oob-server/oob-server/dns/routers"
+
+	"github.com/ind-exe/pulse/oob-server/dns/routers"
 
 	"github.com/miekg/dns"
 )

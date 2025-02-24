@@ -4,7 +4,8 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"oob-server/data"
+
+	"github.com/ind-exe/pulse/data"
 
 	"github.com/libdns/libdns"
 	"github.com/miekg/dns"

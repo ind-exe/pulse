@@ -3,10 +3,11 @@ package dataconfig
 import (
 	"encoding/json"
 	"log"
-	"oob-server/data"
-	envvar "oob-server/envVar"
 	"os"
 	"sync"
+
+	"github.com/ind-exe/pulse/data"
+	envvar "github.com/ind-exe/pulse/envVar"
 
 	"github.com/miekg/dns"
 )
@@ -40,7 +41,7 @@ func loadEnvVariablesToMemory() error {
 
 func LoadConfigurations() error {
 	data.DnsRecordsMu = &sync.RWMutex{}
-	var baseFolder = "/etc/oob-server/"
+	var baseFolder = "/etc/github.com/ind-exe/pulse/"
 	// Load DNS records.
 	dnsData, err := os.ReadFile(baseFolder + "dns_records.json")
 	if err != nil {

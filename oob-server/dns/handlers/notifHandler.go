@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"oob-server/data"
-	"oob-server/models"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/ind-exe/pulse/data"
+	"github.com/ind-exe/pulse/models"
 
 	"github.com/miekg/dns"
 )

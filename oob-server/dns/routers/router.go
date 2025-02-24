@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"oob-server/oob-server/dns/handlers"
+	"github.com/ind-exe/pulse/oob-server/dns/handlers"
 
 	"github.com/miekg/dns"
 )

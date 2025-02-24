@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	envVarPath = "/etc/oob-server/config.env"
+	envVarPath = "/etc/github.com/ind-exe/pulse/config.env"
 )
 
 func LoadConfig() {

@@ -2,9 +2,10 @@ package handlers
 
 import (
 	"log"
-	"oob-server/data"
 	"strings"
 	"sync"
+
+	"github.com/ind-exe/pulse/data"
 
 	"github.com/miekg/dns"
 )

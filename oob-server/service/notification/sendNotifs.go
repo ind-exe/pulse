@@ -5,8 +5,9 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	envvar "oob-server/envVar"
-	"oob-server/models"
+
+	envvar "github.com/ind-exe/pulse/envVar"
+	"github.com/ind-exe/pulse/models"
 )
 
 func SendTelegram(data models.Notifier) {

@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	certhandle "oob-server/oob-server/http/certHandle"
-	"oob-server/oob-server/http/routers"
+	certhandle "github.com/ind-exe/pulse/oob-server/http/certHandle"
+	"github.com/ind-exe/pulse/oob-server/http/routers"
 
 	"golang.org/x/net/http2"
 )

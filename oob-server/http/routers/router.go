@@ -2,7 +2,8 @@ package routers
 
 import (
 	"net/http"
-	"oob-server/oob-server/http/handlers"
+
+	"github.com/ind-exe/pulse/oob-server/http/handlers"
 )
 
 func CreateGeneralRouter() http.Handler {

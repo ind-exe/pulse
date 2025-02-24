@@ -1,4 +1,4 @@
-module oob-server
+module github.com/ind-exe/pulse
 
 go 1.23.4
 
