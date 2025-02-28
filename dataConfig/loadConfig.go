@@ -41,7 +41,7 @@ func loadEnvVariablesToMemory() error {
 
 func LoadConfigurations() error {
 	data.DnsRecordsMu = &sync.RWMutex{}
-	var baseFolder = "/etc/github.com/ind-exe/pulse/"
+	var baseFolder = "/etc/oob-server/"
 	// Load DNS records.
 	dnsData, err := os.ReadFile(baseFolder + "dns_records.json")
 	if err != nil {
